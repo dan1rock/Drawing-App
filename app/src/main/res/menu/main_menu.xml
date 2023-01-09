@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btnDOT"
+        android:icon="@drawable/dotw"
+        android:title="Dot"
+        app:showAsAction="always" />
+    <item
+        android:title="Line"
+        android:icon="@drawable/linew"
+        app:showAsAction="always"
+        android:id="@+id/btnLINE" />
+    <item
+        android:title="Rectangle"
+        android:icon="@drawable/rectanglew"
+        app:showAsAction="always"
+        android:id="@+id/btnRECTANGLE" />
+    <item
+        android:title="Ellipse"
+        android:icon="@drawable/ellipsew"
+        app:showAsAction="always"
+        android:id="@+id/btnELLIPSE" />
+    <item
+        android:title="Line with circles"
+        android:icon="@drawable/lineoow"
+        app:showAsAction="always"
+        android:id="@+id/btnLINEOO" />
+    <item
+        android:title="Cube"
+        android:icon="@drawable/cubew"
+        app:showAsAction="always"
+        android:id="@+id/btnCUBE" />
+    <item
+        android:title="Shape table"
+        android:icon="@drawable/shape_table"
+        app:showAsAction="always"
+        android:id="@+id/btnTABLE" />
+    <item
+        android:title="Save shapes"
+        android:icon="@drawable/save"
+        app:showAsAction="always"
+        android:id="@+id/btnSAVE" />
+    <item
+        android:title="Restore shapes"
+        android:icon="@drawable/restore"
+        app:showAsAction="always"
+        android:id="@+id/btnRESTORE" />
+
+    <item
+        android:id="@+id/DOT"
+        android:title="Dot" />
+    <item
+        android:id="@+id/LINE"
+        android:title="Line" />
+    <item
+        android:id="@+id/RECTANGLE"
+        android:title="Rectangle" />
+    <item
+        android:id="@+id/ELLIPSE"
+        android:title="Ellipse" />
+    <item
+        android:id="@+id/LINEOO"
+        android:title="Line with circles" />
+    <item
+        android:id="@+id/CUBE"
+        android:title="Cube" />
+</menu>
